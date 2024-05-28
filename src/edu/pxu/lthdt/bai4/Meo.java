@@ -14,6 +14,15 @@ public class Meo extends DongVat {
 		super(ten, ngaySinh, gioiTinh);
 		// TODO Auto-generated constructor stub
 	}
+    
+
+	public Meo(String ten, LocalDate ngaySinh, String gioiTinh, int soluong, String mausac, String giong) {
+		super(ten, ngaySinh, gioiTinh);
+		this.soluong = soluong;
+		this.mausac = mausac;
+		this.giong = giong;
+	}
+
 
 	public int getSoluong() {
         return soluong;
